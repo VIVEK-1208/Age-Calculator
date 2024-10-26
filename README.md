@@ -12,7 +12,7 @@ This is a simple web-based age calculator application that allows users to enter
 
 ## Demo
 
-You can try out the application here: [Live Demo Link](link)
+You can try out the application here: [Live Demo Link](https://vivek-1208.github.io/Age-Calculator/)
 
 ## Technologies Used
 
