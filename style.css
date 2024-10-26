@@ -1,0 +1,133 @@
+*{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.age-container{
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px black;
+    width: 45%;
+    height: 45%;
+    padding: 30px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.age-header{
+    font-weight: 500;
+    margin: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.age-dob-input{
+    width: 45%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+.age-dob-input:hover{
+    cursor: pointer;
+    background-color: rgb(224, 205, 191);
+}
+
+.calculate-btn{
+    width: 45%;
+    height: 30px;
+    font-size: 1.2rem;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.calculate-btn:hover{
+    cursor: pointer;
+    background-color: rgb(72, 69, 69);
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer .heart {
+    color: red;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.footer strong {
+    color: #7ac1eb;
+}
+
+/* Responsive Design */
+
+/* tablet */
+@media (max-width: 768px) {
+    .age-container {
+        width: 70%;
+        padding: 20px;
+    }
+    
+    .age-dob-input,
+    .calculate-btn {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .age-result {
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .age-container {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .age-dob-input,
+    .calculate-btn {
+        width: 90%;
+        font-size: 0.9rem;
+        height: 35px;
+    }
+
+    .age-result {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
