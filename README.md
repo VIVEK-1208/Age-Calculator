@@ -31,9 +31,9 @@ To run this project locally, follow these steps:
    
 2. **Navigate to the project directory**:
 
-```bash
-cd age-calculator
-```
+   ```bash
+   cd Age-Calculator
+   ```
 Open the `index.html` file: Simply open the index.html file in your preferred browser.
 
 No additional dependencies are required for this project.
